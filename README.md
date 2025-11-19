@@ -128,22 +128,22 @@ Do this for **both On Load and On Save**.
    ```text
    dynamicFormAlert
    ```
-Pass parameters like this:
-Function Parameters Example:
+### Pass parameters like this:
+#### Function Parameters Example:
 
    ```text
    hrashid_alert,hrashid_alertadditional|WARNING
    ```
 
-Recommended format: two separate parameters
-Parameter 1:
+### Recommended format: two separate parameters
+#### Parameter 1:
 Comma-separated list of alert field logical names
 
    ```text
    hrashid_alert
    ```
 
-Parameter 2:
+#### Parameter 2:
 Alert type (one of WARNING, INFO, ERROR)
 
   ```text
