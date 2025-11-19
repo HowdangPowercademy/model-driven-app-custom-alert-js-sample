@@ -156,39 +156,33 @@ Alert type (one of WARNING, INFO, ERROR)
 
 8. Publish the form
 
+---
+
 ## 🧪 Step 5 — Test It
 
 Try adding:
+- A warning message
+- An information message
+- An error message
 
-A warning message
-
-An information message
-
-An error message
-
-Expected:
-
-If the field contains a message → alert appears
-
-If the field is empty → the alert disappears
-
-Works on both load and save
+### Expected:
+- If the field contains a message → alert appears
+- If the field is empty → the alert disappears
+- Works on both load and save
 
 This empowers your users to manage their own alerts without touching code.
 
-⭐ Tips & Best Practices
+---
 
-Create multiple alert fields for more complex scenarios
+## ⭐ Tips & Best Practices
+- Create multiple alert fields for more complex scenarios
+- Keep alerts short and relevant
+- Use different alert types to guide user behaviour
+- Always test in a sandbox environment
 
-Use environment variables for default alert types
+---
 
-Keep alerts short and relevant
-
-Use different alert types to guide user behaviour
-
-Always test in a sandbox environment
-
-👤 About the Author
+## 👤 About the Author
 
 Created by Howdang Rashid
 Power Platform Architect & Founder at Powercademy
