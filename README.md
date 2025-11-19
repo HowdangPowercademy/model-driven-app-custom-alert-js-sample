@@ -129,32 +129,34 @@ Do this for **both On Load and On Save**.
    dynamicFormAlert
    ```
 Pass parameters like this:
-
 Function Parameters Example:
 
-hrashid_alert,hrashid_alertadditional|WARNING
+   ```text
+   hrashid_alert,hrashid_alertadditional|WARNING
+   ```
 
 Recommended format: two separate parameters
 Parameter 1:
-
 Comma-separated list of alert field logical names
 
-hrashid_alert
+   ```text
+   hrashid_alert
+   ```
 
 Parameter 2:
-
 Alert type (one of WARNING, INFO, ERROR)
 
-WARNING
+  ```text
+   WARNING
+   ```
 
+6. Tick Pass execution context
 
-Tick Pass execution context
+7. Repeat all steps for On Save
 
-Repeat all steps for On Save
+8. Publish the form
 
-Publish the form
-
-🧪 Step 5 — Test It
+## 🧪 Step 5 — Test It
 
 Try adding:
 
